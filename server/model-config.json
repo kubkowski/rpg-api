@@ -25,5 +25,9 @@
   "Role": {
     "dataSource": "db",
     "public": false
+  },
+  "character": {
+    "dataSource": "db",
+    "public": true
   }
 }

@@ -1,0 +1,40 @@
+{
+  "name": "character",
+  "plural": "characters",
+  "base": "Model",
+  "idInjection": true,
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "strength": {
+      "type": "number",
+      "required": true
+    },
+    "dexterity": {
+      "type": "number",
+      "required": true
+    },
+    "constitution": {
+      "type": "number",
+      "required": true
+    },
+    "intelligence": {
+      "type": "number",
+      "required": true
+    },
+    "wisdom": {
+      "type": "number",
+      "required": true
+    },
+    "charisma": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": []
+}
