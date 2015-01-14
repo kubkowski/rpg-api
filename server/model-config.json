@@ -27,7 +27,7 @@
     "public": false
   },
   "character": {
-    "dataSource": "db",
+    "dataSource": "appdb",
     "public": true
   }
 }

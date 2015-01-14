@@ -1,13 +1,8 @@
 {
   "name": "character",
-  "plural": "characters",
-  "base": "Model",
+  "base": "PersistedModel",
   "idInjection": true,
   "properties": {
-    "name": {
-      "type": "string",
-      "required": true
-    },
     "strength": {
       "type": "number",
       "required": true
